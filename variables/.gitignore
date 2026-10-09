@@ -1,0 +1,12 @@
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# **/.terraform/ means ignore any folder named .terraform, no matter how deep it is.
+# *.tfstate means ignore any file ending in .tfstate (like terraform.tfstate).
+# *.tfstate.* means ignore files like terraform.tfstate.backup.
+# *.tfvars means ignore variable files, which often hold secrets.
+# crash.log means ignore Terraform crash logs.
+
